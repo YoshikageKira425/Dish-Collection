@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Collection</title>
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="Img/Icon.png" type="image/x-icon">
+    <style>
+      .bg1{
+        background-image: url('Img/Bg-1.jpg');
+      }
+
+      @media (max-width: 860px) {
+        .bg1 {
+          background-image: url('Img/Bg-2.jpg');
+        }
+      }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-green-600 text-white py-6">
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold">Dish Collection</h1>
+      </div>
+    </header>
+    
+    <section class="bg-center bg-cover h-screen flex justify-center items-center bg1" >
+      <div class="bg-gray-800 text-white py-6 w-full max-w-lg">
+        <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-semibold ">Discover New Dish</h2>
+          <p class="text-lg">Explore a wide variety of dishes ranging from healthy meals to indulgent desserts</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex justify-center" style="padding-top: 40px;">
+      <input type="search" placeholder="Search for a Dish" class="border-b-black text-2xl border-b-3 text-black placeholder:text-gray-150 text-center w-[80%]">
+    </section>
+  
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out">
+            <img src="Img/Pasta.jpg"  alt="Recipe Image" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2">Pasta</h2>
+              <p class="text-gray-600 text-sm mb-4">A delicious recipe that's easy to make and full of flavor.</p>
+              <span class="inline-block bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded-full">Pasta</span>
+            </div>
+            <div class="p-4 pt-0">
+              <button class="w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 hover:shadow-2xl transition duration-200">View Dish</button>
+            </div>
+          </div>
+  
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out">
+            <img src="Img/Chocolate Cake.jpg" alt="Recipe Image" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2">Chocolate Cake</h2>
+              <p class="text-gray-600 text-sm mb-4">A rich and decadent chocolate cake that's perfect for any occasion.</p>
+              <span class="inline-block bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded-full">Dessert</span>
+            </div>
+            <div class="p-4 pt-0">
+              <button class="w-full bg-yellow-600 text-white py-2 rounded-md hover:bg-yellow-700 hover:shadow-2xl transition duration-200">View Dish</button>
+            </div>
+          </div>
+  
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out">
+            <img src="Img/Salad.jpg" alt="Recipe Image" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2">Salad</h2>
+              <p class="text-gray-600 text-sm mb-4">A light and refreshing salad with crisp vegetables and a tangy dressing.</p>
+              <span class="inline-block bg-blue-500 text-white text-xs font-semibold px-2 py-1 rounded-full">Salad</span>
+            </div>
+            <div class="p-4 pt-0">
+              <button class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 hover:shadow-2xl transition duration-200">View Dish</button>
+            </div>
+          </div>
+  
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out">
+            <img src="Img/Spaghetti Bolognese.jpg" alt="Recipe Image" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2">Spaghetti Bolognese</h2>
+              <p class="text-gray-600 text-sm mb-4">Classic spaghetti with rich bolognese sauce, perfect for a family dinner.</p>
+              <span class="inline-block bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded-full">Pasta</span>
+            </div>
+            <div class="p-4 pt-0">
+              <button class="w-full bg-red-600 text-white py-2 rounded-md hover:bg-red-700 hover:shadow-2xl transition duration-200">View Dish</button>
+            </div>
+          </div>
+  
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out">
+            <img src="Img/Pizza.jpg" alt="Recipe Image" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2">Pizza</h2>
+              <p class="text-gray-600 text-sm mb-4">Pizza classic Italian dish with a crispy crust, rich tomato sauce, melted cheese, and flavorful toppings. Perfect for any meal, from casual snacking to gourmet dining.</p>
+              <span class="inline-block bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded-full">Pizza</span>
+            </div>
+            <div class="p-4 pt-0">
+              <button class="w-full bg-green-600 text-white py-2 rounded-md hover:bg-green-700 hover:shadow-2xl transition duration-200">View Dish</button>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out">
+            <img src="Img/Cheesecake.jpg" alt="Recipe Image" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2">Cheesecake</h2>
+              <p class="text-gray-600 text-sm mb-4">A rich, creamy dessert on a buttery crust, perfect for indulgence.</p>
+              <span class="inline-block bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded-full">Dessert</span>
+            </div>
+            <div class="p-4 pt-0">
+              <button class="w-full bg-yellow-600 text-white py-2 rounded-md hover:bg-yellow-700 hover:shadow-2xl transition duration-200">View Dish</button>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 hover:shadow-2xl transition duration-300 ease-in-out">
+            <img src="Img/Pizza Margherita.jpg" alt="Recipe Image" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2">Pizza Margherita</h2>
+              <p class="text-gray-600 text-sm mb-4">A classic Italian pizza with a crispy crust, tomato sauce, fresh mozzarella, and basil.</p>
+              <span class="inline-block bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded-full">Pizza</span>
+            </div>
+            <div class="p-4 pt-0">
+              <button class="w-full bg-green-600 text-white py-2 rounded-md hover:bg-green-700 hover:shadow-2xl transition duration-200">View Dish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="bg-gray-800">
+      <div class="container mx-auto" style="padding-top: 32px; padding-bottom: 32px;">
+        <form>
+          <label class="block text-white font-bold text-4xl text-center">Contact Us</label>
+          <br>
+          <label class="block text-white font-bold text-2xl text-center">Full Name:</label>  
+          <div class="flex justify-center m-3">
+              <input type="text" placeholder="Enter your full name" class="border-b-black text-2xl border-b-3 text-gray-50 placeholder:text-gray-150 text-left w-[80%]">
+          </div>
+
+          <label class="block text-white font-bold text-2xl text-center">Email:</label>
+          <div class="flex justify-center m-3">
+              <input type="text" placeholder="Enter your email" class="border-b-black text-2xl border-b-3 text-gray-50 placeholder:text-gray-150 text-left w-[80%]">
+          </div>
+          
+          <label class="block text-white font-bold text-2xl text-center">Message:</label>
+          <div class="flex justify-center m-3">
+              <textarea placeholder="Type your Message..." class="border-b-black text-2xl border-b-3 text-gray-50 placeholder:text-gray-150 w-[80%] h-35 text-left resize-none"></textarea>
+          </div>
+
+          <div class="flex justify-center mt-2">
+            <input type="submit" value="Send" class="bg-green-600 text-white py-2 px-4 text-2xl rounded-md hover:bg-green-700 hover:shadow-2xl transition duration-200">
+          </div>
+        </form>
+      </div>
+    </section>
+  
+    <footer class="bg-green-600 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Dish Collection. All rights reserved.</p>
+      </div>
+    </footer>
+</body>
+</html>
